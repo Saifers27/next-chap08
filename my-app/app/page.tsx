@@ -5,6 +5,7 @@ import { getNewsList } from "@/app/_libs/microcms";
 import { TOP_NEWS_LIMIT } from "@/app/_constants";
 import NewsList from "@/app/_components/NewsList";
 import ButtonLink from '@/app/_components/ButtonLink';
+
 //komennto
 
 // import { News } from "@/app/_libs/microcms";
@@ -70,7 +71,7 @@ export default async function Home() {
         {/* <img className={styles.bgimg} src="/img-mv.jpg" alt="" /> */}
         <Image
           className={styles.bgimg}
-          src="/img-mv.jpg"
+          src="/mainvisual1.jpg"
           alt=""
           width={4000}
           height={1200}
