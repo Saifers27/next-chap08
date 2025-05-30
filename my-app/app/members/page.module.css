@@ -31,9 +31,6 @@
 
   .profile {
     font-size: 0.9rem;
-      --color-text-main: #043c78;   /* 既存変数を上書き */
-    color: var(--color-text-main);
-
   }
 
   .footer {

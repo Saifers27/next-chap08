@@ -59,6 +59,11 @@ export type News = {
     const listData = await client.getList<Member>({
       endpoint: "members",
       queries,
+      customRequestInit: {
+        next: {
+          revalidate: queries?.draftKey === undefined ? 60 : 0,
+        },
+      },
     });
 
     return listData;
